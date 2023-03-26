@@ -27,7 +27,7 @@ section {
   background-image: url("https://picsum.photos/seed/123/900/600?blur=1");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 20rem;
+  height: 30rem;
   border: 1px solid black;
 }
 
