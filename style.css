@@ -19,6 +19,10 @@ nav li {
   padding-right: 4rem;
 }
 
+section {
+  padding: 4rem 0 4rem 0;
+}
+
 .main-banner {
   background-image: url("https://picsum.photos/seed/123/900/600?blur=1");
   background-repeat: no-repeat;
@@ -34,7 +38,6 @@ nav li {
   align-items: center;
   color: white;
   height: 15rem;
-  padding-top: 5rem;
 }
 
 .testimonial {
