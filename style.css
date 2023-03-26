@@ -36,3 +36,26 @@ nav li {
   height: 15rem;
   padding-top: 5rem;
 }
+
+.testimonial {
+  background-color: palegreen;
+  border: 1px solid black;
+  min-height: 30rem;
+  padding: 2rem 0 0 0;
+}
+
+.testimonial h2, .testimonial p {
+    margin: 0 0 1rem 2rem;
+}
+
+.testimonial .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.testimonial .flex-container img {
+    margin: 0 1rem;
+    border: 0.25rem solid green;
+}
