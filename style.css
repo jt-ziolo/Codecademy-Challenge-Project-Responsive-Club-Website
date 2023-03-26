@@ -19,7 +19,7 @@ nav li {
   padding-right: 4rem;
 }
 
-#main-banner {
+.main-banner {
   background-image: url("https://picsum.photos/seed/123/900/600?blur=1");
   background-repeat: no-repeat;
   background-size: cover;
@@ -27,7 +27,7 @@ nav li {
   border: 1px solid black;
 }
 
-#main-banner .flex-container {
+.main-banner .flex-container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
