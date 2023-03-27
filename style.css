@@ -19,6 +19,26 @@ h2 {
   font-family: "Staatliches", "Gill Sans", "Gill Sans MT", "Calibri", sans-serif;
 }
 
+h1 {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 1.2rem;
+  line-height: 1.1;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1;
+}
+
 body {
   background-color: lightgray;
 }
