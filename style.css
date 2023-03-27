@@ -120,7 +120,8 @@ section {
 
 .cta div {
   grid-column: 1 / 3;
-  text-align: center;
+  text-align: left;
+  width: 80%;
 }
 
 .cta .grid-container {
