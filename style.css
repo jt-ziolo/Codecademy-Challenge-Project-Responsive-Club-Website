@@ -62,11 +62,11 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .testimonial .flex-container img {
-  margin: 0 1rem;
+  margin: 1rem 1rem;
 }
 
 .cta {
