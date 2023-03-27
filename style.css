@@ -27,15 +27,17 @@ h1 {
 h2 {
   font-size: 2rem;
   line-height: 1.2;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 1.2rem;
   line-height: 1.1;
+  font-weight: bold;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1;
 }
 
@@ -96,6 +98,7 @@ section {
 .testimonial h2,
 .testimonial p {
   margin: 0 0 1rem 2rem;
+  font-style: italic;
 }
 
 .testimonial .flex-container {
