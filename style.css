@@ -201,4 +201,56 @@ section {
 
 @media only screen and (max-width: 449px) {
   /* Phones in portrait mode */
+  h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    line-height: 1.1;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    line-height: 1.1;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  nav ul {
+    justify-content: space-around;
+    padding: 0 2rem;
+    margin: 0 auto;
+  }
+
+  nav li {
+    padding: 0;
+  }
+
+  .main-banner .flex-container {
+    height: 15rem;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0;
+  }
+
+  .cta div {
+    grid-column: 1 / 2;
+    text-align: center;
+    width: 80%;
+  }
+
+  .cta .grid-container {
+      grid-auto-flow: row;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+  }
+
+  .desktop {
+    display: none;
+  }
 }
