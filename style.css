@@ -2,6 +2,16 @@ html {
   font-size: 16px;
 }
 
+.serif {
+  font-family: "Merriweather", "TimesNewRoman", "Times New Roman", "Times", "Baskerville", "Georgia", serif;
+}
+.sans-serif {
+  font-family: "Noto Sans Avestan", "Gill Sans", "Gill Sans MT", "Calibri", sans-serif;
+}
+.cursive {
+  font-family: "Staatliches", "Brush Script MT", cursive;
+}
+
 body {
   background-color: lightgray;
 }
