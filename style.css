@@ -21,6 +21,7 @@ nav li {
 
 section {
   padding: 4rem 0 4rem 0;
+  border-bottom: 1px solid black;
 }
 
 .main-banner {
@@ -28,7 +29,6 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   height: 30rem;
-  border: 1px solid black;
 }
 
 .main-banner .flex-container {
