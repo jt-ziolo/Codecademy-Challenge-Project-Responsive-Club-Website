@@ -79,6 +79,10 @@ section {
   align-items: center;
   color: white;
   height: 15rem;
+  background-color: red;
+  width: 48rem; 
+  margin: 0 auto;
+  border-radius: 1rem;
 }
 
 .testimonial {
@@ -107,7 +111,7 @@ section {
 }
 
 .cta {
-  background-color: lightpink;
+  background-color: lightsteelblue;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
