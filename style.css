@@ -42,7 +42,7 @@ p {
 }
 
 body {
-  background-color: lightgray;
+  background-color: steelblue;
 }
 
 img {
@@ -62,9 +62,19 @@ nav li {
   padding-right: 4rem;
 }
 
+nav a {
+  color: white;
+  font-weight: bold;
+  border-radius: 0.25rem;
+}
+
+nav,
+section {
+  border-bottom: 1px solid black;
+}
+
 section {
   padding: 4rem 0 4rem 0;
-  border-bottom: 1px solid black;
 }
 
 .main-banner {
@@ -82,9 +92,14 @@ section {
   color: white;
   height: 15rem;
   background-color: red;
-  width: 48rem; 
+  width: 48rem;
   margin: 0 auto;
   border-radius: 1rem;
+}
+
+.main-banner a {
+  color: lightyellow;
+  font-weight: bold;
 }
 
 .testimonial {
@@ -135,4 +150,47 @@ section {
   align-content: center;
   justify-items: center;
   align-items: center;
+}
+
+@media only screen and (min-width: 450px) and (max-width: 767px) {
+  /* Tablets or smaller windows */
+  h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    line-height: 1.1;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    line-height: 1.1;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  nav ul {
+    justify-content: space-around;
+    padding: 0 2rem;
+    margin: 0 auto;
+  }
+
+  nav li {
+    padding: 0;
+  }
+
+  .main-banner .flex-container {
+    height: 15rem;
+    width: 28rem;
+    padding: 1rem;
+  }
+}
+
+@media only screen and (max-width: 449px) {
+  /* Phones in portrait mode */
 }
