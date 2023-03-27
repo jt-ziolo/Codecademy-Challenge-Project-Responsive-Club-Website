@@ -2,14 +2,21 @@ html {
   font-size: 16px;
 }
 
-.serif {
-  font-family: "Merriweather", "TimesNewRoman", "Times New Roman", "Times", "Baskerville", "Georgia", serif;
+a,
+p,
+h3 {
+  font-family: "Merriweather", "TimesNewRoman", "Times New Roman", "Times",
+    "Baskerville", "Georgia", serif;
 }
-.sans-serif {
-  font-family: "Noto Sans Avestan", "Gill Sans", "Gill Sans MT", "Calibri", sans-serif;
+
+h1,
+h2 {
+  font-family: "Noto Sans Avestan", "Gill Sans", "Gill Sans MT", "Calibri",
+    sans-serif;
 }
-.cursive {
-  font-family: "Staatliches", "Brush Script MT", cursive;
+
+.title {
+  font-family: "Staatliches", "Gill Sans", "Gill Sans MT", "Calibri", sans-serif;
 }
 
 body {
